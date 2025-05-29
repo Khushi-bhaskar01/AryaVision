@@ -1,6 +1,6 @@
-# MoodTrack - Emotional Wellbeing Tracker
+# MoodMate - Emotional Wellbeing Tracker
 
-MoodTrack is a full-stack web application that helps users track their daily moods, visualize emotional patterns, and receive personalized AI-powered advice based on their mood history.
+MoodMate is a full-stack web application that helps users track their daily moods, visualize emotional patterns, and receive personalized AI-powered advice based on their mood history.
 
 ## Features
 
@@ -76,7 +76,7 @@ moodtrack/
 │   ├── services/         # Service modules (OpenAI, etc.)
 │   └── index.js          # Server entry point
 ├── public/               # Static assets
-└── .env.example          # Example environment variables
+└── .env         # environment variables
 ```
 
 ## API Endpoints
