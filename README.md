@@ -1,14 +1,14 @@
-# MoodMate - Emotional Wellbeing Tracker
+#🎯✨ MoodMate - Emotional Wellbeing Tracker
 
 MoodMate is a full-stack web application that helps users track their daily moods, visualize emotional patterns, and receive personalized AI-powered advice based on their mood history.
 
 ## Features
 
-- **Daily Mood Tracking**: Record your emotional state with optional notes
-- **Mood History**: View and filter your past mood entries
-- **Weekly Statistics**: Visualize mood distribution with interactive charts
-- **AI-Powered Advice**: Receive personalized advice based on your recent mood patterns
-- **Responsive Design**: Works seamlessly across mobile, tablet and desktop devices
+- 📅**Daily Mood Tracking**: Record your emotional state with optional notes
+- 📈**Mood History**: View and filter your past mood entries
+- 📊**Weekly Statistics**: Visualize mood distribution with interactive charts
+- 🤖**AI-Powered Advice**: Receive personalized advice based on your recent mood patterns
+- 📱**Responsive Design**: Works seamlessly across mobile, tablet and desktop devices
 
 ## Tech Stack
 
