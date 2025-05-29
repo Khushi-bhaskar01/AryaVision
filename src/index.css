@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 font-sans;
+  }
+  
+  h1 {
+    @apply text-3xl font-bold text-gray-900;
+  }
+  
+  h2 {
+    @apply text-2xl font-semibold text-gray-800;
+  }
+  
+  h3 {
+    @apply text-xl font-semibold text-gray-800;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200 ease-in-out;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 active:bg-primary-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-700 hover:bg-gray-300 active:bg-gray-400;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 transition-all duration-300;
+  }
+  
+  .form-input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+  }
+  
+  .mood-btn {
+    @apply flex flex-col items-center justify-center p-4 rounded-lg transition-transform duration-200 hover:scale-105 active:scale-95;
+  }
+  
+  .mood-icon {
+    @apply w-12 h-12 mb-2;
+  }
+}
+
+.mood-btn-happy {
+  @apply bg-happy-light text-happy-dark border-2 border-happy hover:bg-happy hover:text-white;
+}
+
+.mood-btn-sad {
+  @apply bg-sad-light text-sad-dark border-2 border-sad hover:bg-sad hover:text-white;
+}
+
+.mood-btn-angry {
+  @apply bg-angry-light text-angry-dark border-2 border-angry hover:bg-angry hover:text-white;
+}
+
+.mood-btn-calm {
+  @apply bg-calm-light text-calm-dark border-2 border-calm hover:bg-calm hover:text-white;
+}
+
+.mood-btn-tired {
+  @apply bg-tired-light text-tired-dark border-2 border-tired hover:bg-tired hover:text-white;
+}
