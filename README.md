@@ -49,7 +49,7 @@ npm install
 
 3. Set up environment variables
 ```
-cp .env.example .env
+cp .env
 ```
 Then edit the `.env` file to add your MongoDB connection string and OpenAI API key.
 
