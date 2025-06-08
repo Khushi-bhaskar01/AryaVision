@@ -23,7 +23,6 @@ MoodMate is a full-stack web application that helps users track their daily mood
 ### Backend
 - Express.js
 - MongoDB with Mongoose
-- OpenAI GPT API for generating personalized advice
 - CORS for cross-origin resource sharing
 - Dotenv for environment variable management
 
